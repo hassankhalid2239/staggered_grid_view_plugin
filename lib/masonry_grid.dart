@@ -16,6 +16,7 @@ class MasonryGrid extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        foregroundColor: Colors.white,
         backgroundColor: Colors.redAccent,
         title: const Text('Masonry Grid View',style: TextStyle(color: Colors.white),),
         actions: [
